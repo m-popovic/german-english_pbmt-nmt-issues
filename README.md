@@ -1,19 +1,20 @@
+The files contain parts of the wmt16 news test data from the German-to-English and English-to-German translation tasks.
 
 The files *issues.tsv contain tab-separated:
-- original source language
+- original source language (not translated by humnans)
 - segment number in the original wmt16 test file
 - source sentence
-- nmt translation output
-- pbmt translation output
+- NMT translation output (Sennrich, Haddow, and Birch. "Edinburgh Neural Machine Translation Systems for WMT16", Proceedings of the 1st Conference on Machine Translation (WMT 2016), Berlin, Germany, August 2016.)
+- PBMT translation output (Williams, Sennrich, Nadejde, Huck, Haddow, and Bojar. "Edinburgh’s Statistical Machine Translation Systems for WMT16", Proceedings of the 1st Conference on Machine Translation (WMT 2016), Berlin, Germany, August 2016.)
 - reference translation
-- language related issues for the nmt translation
-- langugae related issues for the pbmt translation
+- language related issues for the NMT translation
+- langugae related issues for the PBMT translation
 
 
 The files *ranks.tsv contain tab-separated:
 - segment number in the original wmt16 test file
-- relative rank of the nmt translation
-- relative rank of the pbmt translation
+- relative rank of the NMT translation
+- relative rank of the PBMT translation
 
 If you use any part of this corpus, please cite the following paper:
 
